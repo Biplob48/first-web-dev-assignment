@@ -38,7 +38,21 @@ nav{
 
 /* shared styles */
 
+.secondary-bg{
+    background-color: #C6E4D6;
+}
 
+.title-primary{
+    font-weight: bold;
+    font-size: 40px;
+    color: #0E0E0E;
+}
+
+.description-primary{
+    font-weight: normal;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+}
 
 /* banner styles */
 
@@ -49,7 +63,6 @@ nav{
     margin-top: 50px; 
     margin-bottom: 80px;
     gap: 64px;   
-    background-color: #C6E4D6;
     opacity: 100%;
     border-radius: 24px;
 }
@@ -80,6 +93,7 @@ nav{
     padding: 17px 30px;
     border: none;
     width: 270px;
+    height: 56px;
     font-weight: 600px;
     font-size: 18px;
 }
@@ -87,16 +101,15 @@ nav{
 .banner-profile-pic{
     width: 475px;
     height: 400px;
-    padding: 80px 60px 80px 0;
+    padding: 80px 60px 80px 64px;
 }
 
 
 /* section styles */
 
+/* section-1 */
+
 .country-title {
-    font-weight: bold;
-    font-size: 40px;
-    color: #0E0E0E;
     margin-bottom: 32px;
 }
 
@@ -122,12 +135,31 @@ nav{
 }
 
 .pillar-descriptions{
+    margin-top: 12px;
     font-weight: normal;
     font-size: 16px;
     color: rgba(14, 14, 14, 0.7);
-    margin-top: 12px;
 }
+
 
 .Pillars-BD{
     margin-bottom: 80px;
+}
+
+/* section-2 */
+
+.vision-title{
+   margin-bottom: 24px;
+}
+
+.vision-description{
+    margin-bottom: 32px;
+    line-height: 24px;
+}
+
+
+.vision-models-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
 }
