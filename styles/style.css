@@ -54,6 +54,14 @@ nav{
     color: rgba(14, 14, 14, 0.7);
 }
 
+.model-title{
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(14, 14, 14, 0.8);
+    margin-top: 24px;
+    margin-bottom: 12px;
+}
+
 /* banner styles */
 
 .banner{
@@ -101,13 +109,13 @@ nav{
 .banner-profile-pic{
     width: 475px;
     height: 400px;
-    padding: 80px 60px 80px 64px;
+    padding: 80px 60px 80px 0;
 }
 
 
 /* section styles */
 
-/* section-1 */
+/* pillar-section-1 */
 
 .country-title {
     margin-bottom: 32px;
@@ -146,7 +154,7 @@ nav{
     margin-bottom: 80px;
 }
 
-/* section-2 */
+/* vision-section-2 */
 
 .vision-title{
    margin-bottom: 24px;
@@ -157,9 +165,101 @@ nav{
     line-height: 24px;
 }
 
-
 .vision-models-container{
     display: flex;
     justify-content: space-between;
     gap: 24px;
+    margin-bottom: 32px;
+}
+
+.vision-models-1{
+    width: 411px;
+    padding: 32px;
+    border-radius: 16px;
+    background-color: rgba(84, 144, 245, 0.2);   
+}
+
+
+.model-description-1{
+    font-weight: normal;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+}
+
+.model-btn-1{
+    width: 122px;
+    height: 41px;
+    border-radius: 8px;
+    background-color: #5490F5;
+    border: none;
+    color: #FFFFFF;
+    margin-top: 24px;
+}
+
+.vision-models-2{
+    width: 411px;
+    padding: 32px;
+    border-radius: 16px;
+    background-color: #C6E4D6;
+}
+
+
+.model-description-2{
+    font-weight: normal;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    margin-bottom: 50px;
+}
+
+.model-btn-2{
+    width: 122px;
+    height: 41px;
+    border-radius: 8px;
+    background-color: #09A15C;
+    color: #FFFFFF;
+    border: none;
+}
+
+.vision-models-3{
+    width: 411px;
+    border-radius: 16px;
+    padding: 24px;
+    background-color: #F7EBCF;
+}
+
+
+.model-description-3{
+    font-weight: normal;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    margin-bottom: 64px;             
+}
+
+.model-btn-3{
+    width: 122px;
+    height: 41px;
+    border-radius: 8px;
+    border: none;
+    color: #FFFFFF;
+    background-color: #FFC239;
+}
+
+/* section-3 */
+
+.yunus-description{
+    font-weight: normal;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.8);
+}
+
+.name{
+    font-weight: 600px;
+    font-size: 20px;
+    color: rgba(14, 14, 14, 0.8);
+}
+
+.designation{
+    font-weight: normal;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.6);
 }
