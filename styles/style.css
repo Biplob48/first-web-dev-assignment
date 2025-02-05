@@ -246,20 +246,36 @@ nav{
 
 /* section-3 */
 
+.Dr-yunus{
+    border-radius: 16px;
+    padding: 48px 24px;
+    background-color: #FFFFFF;
+}
+
+.background-img{
+    background-image: url('../assets/quote-bg.png');
+    background-repeat: no-repeat;
+
+}
+
 .yunus-description{
     font-weight: normal;
     font-size: 16px;
     color: rgba(14, 14, 14, 0.8);
+    margin-bottom: 12px;
+
 }
 
 .name{
     font-weight: 600px;
     font-size: 20px;
     color: rgba(14, 14, 14, 0.8);
+    margin-bottom: 4px;
 }
 
 .designation{
     font-weight: normal;
     font-size: 16px;
     color: rgba(14, 14, 14, 0.6);
+    margin-top: 4px;
 }
