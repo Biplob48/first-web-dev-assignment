@@ -67,18 +67,18 @@ nav{
 .banner{
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    margin-top: 50px; 
-    margin-bottom: 80px;
-    gap: 64px;   
-    opacity: 100%;
+    gap: 64px;
     border-radius: 24px;
 }
 
 .banner-content{
-    padding: 117px 0 117px 60px;
-    width: 620px;
-    height: 325px;
+    max-width: 622px;
+    margin: 117px 0 117px 60px;
+}
+
+.banner-profile-pic{
+    max-width: 475px;
+    margin: 80px 60px 80px 0;
 }
 
 .banner-title{
@@ -104,12 +104,6 @@ nav{
     height: 56px;
     font-weight: 600px;
     font-size: 18px;
-}
-
-.banner-profile-pic{
-    width: 475px;
-    height: 400px;
-    padding: 80px 60px 80px 0;
 }
 
 
@@ -250,12 +244,13 @@ nav{
     border-radius: 16px;
     padding: 48px 24px;
     background-color: #FFFFFF;
+    margin-bottom: 80px;       
 }
 
 .background-img{
     background-image: url('../assets/quote-bg.png');
     background-repeat: no-repeat;
-
+    padding: 25px 0 0 24px;  
 }
 
 .yunus-description{
