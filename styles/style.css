@@ -52,6 +52,7 @@ nav{
     font-weight: normal;
     font-size: 16px;
     color: rgba(14, 14, 14, 0.7);
+    margin-bottom: 32px;
 }
 
 .model-title{
@@ -60,6 +61,20 @@ nav{
     color: rgba(14, 14, 14, 0.8);
     margin-top: 24px;
     margin-bottom: 12px;
+}
+
+.bd-satellite{
+    margin-bottom: 12px;
+}
+
+.satellite-btn{
+    max-width: 139px;
+    max-height: 48px;
+    border-radius: 8px;
+    background-color: #006A50;
+    color: #FFFFFF;
+    padding: 13px 26px;
+    border: none;
 }
 
 /* banner styles */
@@ -274,3 +289,54 @@ nav{
     color: rgba(14, 14, 14, 0.6);
     margin-top: 4px;
 }
+
+/* section-3-News */
+
+.news-title{
+    margin-bottom: 24px;
+}
+
+.news-description{
+    margin-bottom: 32px;
+}
+
+
+.satellite-img{
+    border-radius: 24px;
+    margin: 48px 0 48px 48px;
+    max-width: 408px;  
+}
+
+.satellite-img-2{
+    border-radius: 24px;
+    margin: 48px 48px 48px 0;
+    max-width: 408px;
+
+}
+
+.launce-satellite{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFFFF;
+    border-radius: 24px;
+    gap: 32px;
+    margin-bottom: 24px;
+}
+
+.bd-launch{
+    margin: 56px 48px 56px 0;
+    max-width: 744px;   
+}
+
+.bd-launch-2{
+    margin: 56px 0 56px 48px;
+    max-width: 744px;
+}
+
+.satellite-title{
+    font-weight: bold;
+    font-size: 32px;
+    color: rgba(14, 14, 14, 0.8);
+}
+
