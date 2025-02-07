@@ -32,8 +32,7 @@ nav{
     color: #006A50;
     padding: 15px 30px;
     border-radius: 8px;
-    opacity: 100%;
-    border-color: #006A50;
+    border: solid#006A50;
 }
 
 /* shared styles */
@@ -63,7 +62,7 @@ nav{
     margin-bottom: 12px;
 }
 
-.bd-satellite{
+.satellite-margin{
     margin-bottom: 12px;
 }
 
@@ -300,6 +299,10 @@ nav{
     margin-bottom: 32px;
 }
 
+.date-time{
+    display: flex;
+    gap: 12px;
+}
 
 .satellite-img{
     border-radius: 24px;
@@ -349,6 +352,7 @@ nav{
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     display: inline-block;
+}
 }
 .title {
     font-size: 24px;
