@@ -35,6 +35,12 @@ nav {
   padding: 15px 30px;
   border-radius: 8px;
   border: solid#006A50;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.nav-btn:hover{
+  background-color:darksalmon;
+  border-radius: 12px;
 }
 
 /* shared styles */
@@ -76,8 +82,12 @@ nav {
   color: #ffffff;
   padding: 13px 26px;
   border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
-
+.satellite-btn:hover{
+  background-color: indianred;
+}
 /* banner styles */
 
 .banner {
@@ -120,6 +130,12 @@ nav {
   height: 56px;
   font-weight: 600px;
   font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.banner-btn:hover{
+  background-color: chocolate;
+  border-radius: 16px;
 }
 
 /* section styles */
@@ -201,8 +217,13 @@ nav {
   border: none;
   color: #ffffff;
   margin-top: 24px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
-
+.model-btn-1:hover{
+  background-color: darkred;
+  border-radius: 12px;
+}
 .vision-models-2 {
   width: 411px;
   padding: 32px;
@@ -217,6 +238,7 @@ nav {
   margin-bottom: 50px;
 }
 
+
 .model-btn-2 {
   width: 122px;
   height: 41px;
@@ -224,8 +246,13 @@ nav {
   background-color: #09a15c;
   color: #ffffff;
   border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
-
+.model-btn-2:hover{
+  background-color: darkred;
+  border-radius: 12px;
+}
 .vision-models-3 {
   width: 411px;
   border-radius: 16px;
@@ -247,8 +274,14 @@ nav {
   border: none;
   color: #ffffff;
   background-color: #ffc239;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
+.model-btn-3:hover{
+  background-color: darkred;
+  border-radius: 12px;
+}
 /* section-3 */
 
 .Dr-yunus {
@@ -370,9 +403,28 @@ nav {
   font-weight: bold;
   font-size: 40px;
   color: rgba(14, 14, 14, 0.8);
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  display: flex;
 }
+
+.amount-btn::after{
+  content: '';
+  position: absolute;
+  border-radius: 16px;
+  width: 105%;
+  height: 103%;
+  background-image: linear-gradient(to bottom right, chocolate,darkgreen);
+  z-index: -1;
+}
+
+.amount-btn:hover{
+  z-index: -1;
+}
+
 .amount-btn-2 {
-  width: 252px;
+  width: 250px;
   padding: 40px;
   text-align: center;
   background-color: #c6e4d6;
@@ -380,10 +432,28 @@ nav {
   font-weight: bold;
   font-size: 40px;
   color: rgba(14, 14, 14, 0.8);
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  display: flex; 
+}
+
+.amount-btn-2::after{
+  content: '';
+  border-radius: 16px;
+  width: 105%;
+  height: 103%;
+  position: absolute;
+  background-image: linear-gradient(to bottom right,chocolate,darkgreen);
+  z-index: -1;
+}
+
+.amount-btn-2:hover{
+  z-index: -1;
 }
 
 .amount-btn-3 {
-  width: 264px;
+  width: 260px;
   padding: 40px;
   text-align: center;
   background-color: #ffffff;
@@ -391,6 +461,24 @@ nav {
   font-weight: bold;
   font-size: 40px;
   color: rgba(14, 14, 14, 0.8);
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.amount-btn-3::after {
+  content: '';
+  position: absolute;
+  border-radius: 16px;
+  width: 105%;
+  height: 103%;
+  background-image: linear-gradient(to bottom right,chocolate,darkgreen);
+  z-index: -1;
+}
+
+.amount-btn-3:hover{
+  z-index: -1;
 }
 
 .amount-term {
@@ -415,6 +503,12 @@ nav {
   font-weight: 600px;
   font-size: 18px;
   border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.done-btn:hover{
+  background-color: chocolate;
+  border-radius: 20px;
 }
 
 .donate-done-btn {
@@ -449,6 +543,7 @@ nav {
   align-items: center;
   margin-bottom: 24px;
 }
+
 .mail-btn {
   width: 600px;
   height: 55px;
@@ -472,8 +567,12 @@ nav {
   border: none;
   border-top-right-radius: 8px;
   border-bottom-right-radius: 8px; 
+  cursor: pointer;
+  transition: backghround-color 0.3s ease;
 }
-
+.subscribe-btn:hover{
+  background-color: darkgoldenrod;
+}
 .security-ensure{
   font-weight: normal;
   font-size: 16px;
@@ -501,5 +600,5 @@ hr{
 .icons-container{
   display: inline-flex;
   gap: 32px;
-  padding-top: 32px;
+  padding: 32px 0 50px;
 }
