@@ -331,6 +331,7 @@ nav {
 .date-time {
   display: flex;
   gap: 12px;
+  margin-bottom: 12px;
 }
 
 .satellite-img {
