@@ -485,7 +485,8 @@ nav {
 
 .amount-term {
   text-align: center;
-  margin: 0 124px 32px;
+  justify-content: center;
+  margin-bottom: 32px;
 }
 
 .amount-taka {
@@ -494,6 +495,10 @@ nav {
   color: rgba(14, 14, 14, 0.3);
   padding: 20px 423px;
   border: none;
+}
+
+input:focus{
+  color: darkred;
 }
 
 .done-btn {
