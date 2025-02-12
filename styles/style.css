@@ -609,3 +609,38 @@ hr{
   gap: 32px;
   padding: 32px 0 50px;
 }
+
+/* footer-btn */
+
+.fb-btn{
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.fb-btn:hover{
+  background-color: darkred;
+  width: 30px;
+  height: 28px;
+}
+
+.instra-btn{
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.instra-btn:hover{
+  background-color:lightsalmon;
+  width: 28px;
+  height: 28px;
+}
+
+.X-btn{
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.X-btn:hover{
+  background-color: powderblue;
+  width: 30px;
+  height: 30px;
+}
